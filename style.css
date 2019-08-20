@@ -9,9 +9,23 @@
     align-items: center;
 }
 
+.contain {
+    width:100%;
+}
+
 .twitch {
     height: 254px;
     width: 306px;
+}
+
+iframe {
+    width: 100%;
+}
+
+.main-section {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
 }
 
 
