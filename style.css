@@ -1,11 +1,22 @@
-.bg-black {
-    background-color: lightgreen;
+.bg-gray {
+    background-color: #f4f4f4;
+}
+.events{
+    display:flex;
+    flex-direction: column;
+    height:90px;
+    justify-content: center;
+    align-items: center;
 }
 
-.bg-blue {
-    background-color: lightblue;
+.twitch {
+    height: 254px;
+    width: 306px;
 }
 
-.bg-red {
-    background-color: lightcoral
+
+@media (max-width:1023px){
+    .imgcontainer{
+        display:none;
+    }
 }
