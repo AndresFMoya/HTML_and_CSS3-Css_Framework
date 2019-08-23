@@ -1,6 +1,18 @@
 .bg-gray {
     background-color: #f4f4f4;
 }
+
+.navbar {
+    background-color: #00aeef;
+    height: 67px;
+    display: flex;
+    align-items: center;
+}
+.imagediv{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
 .events{
     display:flex;
     flex-direction: column;
