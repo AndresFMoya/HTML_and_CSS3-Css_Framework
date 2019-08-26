@@ -1,0 +1,176 @@
+.bg-gray {
+  background-color: #f4f4f4;
+}
+
+.navbar {
+  background-color: #00aeef;
+  height: 67px;
+  display: flex;
+  justify-content: center;
+}
+
+.navcontainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+}
+
+.imagediv {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+
+li {
+  color: white;
+  font-size: 1.4rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.events {
+  display: flex;
+  flex-direction: column;
+  height: 90px;
+  justify-content: center;
+  align-items: center;
+}
+
+.contain {
+  width: 100%;
+}
+
+.twitch {
+  height: 254px;
+  width: 306px;
+}
+
+.social-icons {
+  padding: 20px;
+  display: flex;
+  width: 80%;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.policy {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 100%;
+}
+
+.partners-link {
+  width: 100%;
+  padding-bottom: 10px;
+  border-bottom: 1px white solid;
+}
+
+.privacy-link {
+  padding-top: 10px;
+}
+
+.policy a {
+  color: white;
+  text-decoration: none;
+}
+
+iframe {
+  width: 100%;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+footer {
+  background-color: #171717;
+  height: 300px;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  align-items: center;
+}
+
+.copyright img {
+  width: 250px;
+}
+
+.copyright p {
+  color: #959595;
+  font-size: 0.7rem;
+}
+
+@media (max-width: 720px) {
+  .side-section {
+    width: 60%;
+    margin: auto;
+  }
+
+  .chat {
+    display: none;
+  }
+
+  ul {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+  }
+}
+
+@media (min-width: 580px) {
+  footer {
+    height: 250px;
+    padding: 20px;
+  }
+
+  .social-icons {
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+  }
+
+  .policy {
+    width: 40%;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+  }
+
+  .partners-link {
+    justify-content: center;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+
+  .privacy-link {
+    padding-top: 0;
+    width: 100%;
+  }
+
+  .copyright img {
+    display: none;
+  }
+}
