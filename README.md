@@ -2,12 +2,6 @@
 
 This assignment consists of building a grid-based framework (similar to bootstrap) that includes some basic functionality necessary to build a website.
 
-# The Website
-
-Follow this link to access the website: 
-
-https://raw.githack.com/andynarf/css_framework/new/index.html
-
 ## Technologies used
 
 - HTML
@@ -17,7 +11,7 @@ https://raw.githack.com/andynarf/css_framework/new/index.html
 - Stickler
 - IDE (VS Code)
 
-## [Live Version](https://raw.githack.com/andynarf/css_framework/new/index.html)
+### [Live Version](https://raw.githack.com/andynarf/css_framework/new/index.html)
 
 
 ## 🤝 Contributing
